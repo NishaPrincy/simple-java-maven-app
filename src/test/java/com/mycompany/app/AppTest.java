@@ -21,9 +21,9 @@ public class AppTest
     }
 
     @Test
-    public void testConstructor() {
+    public void testAppConstructor() {
         try {
-            new A();
+            new App();
         } catch (Exception e) {
             fail("Construction failed.");
         }
